@@ -155,11 +155,92 @@ body {
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   }
 
-  /*Recieve*/
-  .bb
-  {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    padding-bottom: 30px;
-    
+
+  /*Log In*/
+  form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button.cancelbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 80%;
+  border-radius: 100%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
   }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+#formula
+{
+  background-color: #f44336;
+}
+
+img.avatar2
+{
+  width: 100%;
+  height: 100%;
+}
+
+/*nav*/
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.pill-nav a.active {
+  background-color: #fdd58f;
+  color: white;
+}
